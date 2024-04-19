@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <script src="./main.js" defer type="module"></script>
+  <div class="alert-error">
+  digite Somente Numeros
+  </div>
+
+  <div class="container">
+   <main class="card">
+    <form action="">
+      <h1 class="title">Calculo de IMC</h1>
+
+      <div class="inputWrapper">
+        <label for="weigth">Peso (kg)</label>
+        <input id="weigth" type="text" placeholder="60">
+      </div>
+
+      <div class="inputWrapper">
+        <label for="heigth">Altura (Cm)</label>
+        <input id="heigth" type="text" placeholder="165">
+      </div>
+
+      <button type="submit">
+        Calcular IMC 
+        <i class="bi bi-arrow-bar-right"></i>
+      </button>
+    </form>
+   </main>
+  </div>
+
+  <div class="modalWrapper">
+    <div class="modal card">
+      <h2 class="title">
+        <button>
+          <i class="bi bi-x-circle"></i>
+        </button>
+        <span>O seu IMC é de 23</span>
+      </h2>
+    </div>
+  </div>
+
+</body>
+</html>
